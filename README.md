@@ -40,7 +40,7 @@ change this to use your own username.
 
 
 ```
-$ docker build -t="internavenue/centos-phabricator" .
+$ docker build -t="timesking" .
 ```
 
 Alternately, you can run the following if you have *GNU Make* installed...

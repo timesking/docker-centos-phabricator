@@ -16,11 +16,7 @@ fi
 pre_start_action
 post_start_action
 
-echo "Starting SSHd"
+
 service sshd start
-
-echo "Starting PHP-FPM..."
-service php-fpm start
-
-echo "Starting Nginx..."
-/usr/sbin/nginx
+service nginx start
+/usr/sbin/php-fpm
